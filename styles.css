@@ -1,0 +1,259 @@
+/************************ Team ***********************/
+#team .text-muted {
+    color: #777;
+  }
+  
+  #team a, #team a.active, #team a:active, #team a:focus, #team a:hover {
+    outline: 0;
+  }
+  
+  #team a.active, #team a:active, #team a:focus, #team a:hover {
+    color: #fec503;
+  }
+  
+  section#team {
+    padding: 100px 0;
+  }
+  
+  section#team h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  section#team h3.section-subheading {
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 400;
+    margin-bottom: 75px;
+  }
+  
+  @media (min-width:768px) {
+    section#team {
+      padding: 150px 0;
+    }
+  }
+  
+  .team-member {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+  }
+  
+  .team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  
+  .team-member p {
+    margin-top: 0;
+  }
+  
+  #team ul.social-buttons {
+    margin-bottom: 0;
+  }
+  
+  #team ul.social-buttons li a {
+    display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  #team ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+    background-color: #fed136;
+  }  
+
+
+/********************** Team-horizontal-images **************************/
+.fit-cover {
+    object-fit: cover;
+  }
+
+
+/************************* Navbar-With-Button-icons *********************/
+.bs-icon {
+    --bs-icon-size: .75rem;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--bs-icon-size);
+    width: calc(var(--bs-icon-size) * 2);
+    height: calc(var(--bs-icon-size) * 2);
+    color: var(--bs-primary);
+  }
+  
+  .bs-icon-xs {
+    --bs-icon-size: 1rem;
+    width: calc(var(--bs-icon-size) * 1.5);
+    height: calc(var(--bs-icon-size) * 1.5);
+  }
+  
+  .bs-icon-sm {
+    --bs-icon-size: 1rem;
+  }
+  
+  .bs-icon-md {
+    --bs-icon-size: 1.5rem;
+  }
+  
+  .bs-icon-lg {
+    --bs-icon-size: 2rem;
+  }
+  
+  .bs-icon-xl {
+    --bs-icon-size: 2.5rem;
+  }
+  
+  .bs-icon.bs-icon-primary {
+    color: var(--bs-white);
+    background: var(--bs-primary);
+  }
+  
+  .bs-icon.bs-icon-primary-light {
+    color: var(--bs-primary);
+    background: rgba(var(--bs-primary-rgb), .2);
+  }
+  
+  .bs-icon.bs-icon-semi-white {
+    color: var(--bs-primary);
+    background: rgba(255, 255, 255, .5);
+  }
+  
+  .bs-icon.bs-icon-rounded {
+    border-radius: .5rem;
+  }
+  
+  .bs-icon.bs-icon-circle {
+    border-radius: 50%;
+  }
+
+
+/******************* Ludens--Contact-Info--Goole-Map *********************/
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }  
+  
+
+/******************************* Logo *********************************/
+#brand-logo {
+    background-image: url(../../assets/img/logo.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+  }
+    
+
+/******************** Card-3-column-animation-shadows-images ******************/
+#lorem {
+    color: grey;
+    font-family: serif;
+  }
+  
+
+/*************************** Growing search bar animation *************************/
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  .search_input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+  }
+  
+  .searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 450px;
+    caret-color: red;
+    transition: width 0.4s linear;
+  }
+  
+  .searchbar:hover > .search_icon {
+    background: white;
+    color: var(--bs-blue);
+  }
+  
+  .search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+  }
+  
+
+  /***************** fontawesome5-overrides *****************/
+  .fab.fa-bitcoin:before{
+    content:"\f379"
+}
+.far.fa-calendar:before,.fas.fa-calendar:before{
+    content:"\f133"
+}
+.far.fa-clipboard:before,.fas.fa-clipboard:before{
+    content:"\f328"
+}
+.fab.fa-facebook-f:before{
+    content:"\f39e"
+}
+.fab.fa-google-plus:before{
+    content:"\f2b3"
+}
+.fas.fa-hotel:before{
+    content:"\f594"
+}
+.fab.fa-linkedin:before{
+    content:"\f08c"
+}
+.fas.fa-reply:before{
+    content:"\f3e5"
+}
+.fas.fa-thermometer:before{
+    content:"\f491"
+}.fab.fa-vimeo:before{
+    content:"\f40a"
+}
+.far.fa-window-close:before,.fas.fa-window-close:before{
+    content:"\f410"
+}
+.fab.fa-youtube-square:before{
+    content:"\f431"
+}
